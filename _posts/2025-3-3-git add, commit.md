@@ -1,3 +1,11 @@
+---
+layout: article
+title: git add, commit
+date: 2025-03-03 15:30:00 +0900
+categories: [카테고리명]
+tags: [Git]
+---
+
 # git add, commit으로 파일 기록해놓을 수 있음
 
 ![](https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/06/DV4pD0pVAAUVWFf.png)
@@ -44,32 +52,6 @@ git의 commit 기능을 쓰면 쓰면 파일의 현재상태를 매일매일 **
 git add 파일명
 git commit -m '아무메세지'
 ```
-
-- **오류 해결**
-    
-    # 잠깐만 안되잖아
-    
-    ![스크린샷 2025-03-02 오후 11.43.44.png](git%20add,%20commit%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%80%E1%85%B5%E1%84%85%E1%85%A9%E1%86%A8%E1%84%92%E1%85%A2%E1%84%82%E1%85%A9%E1%87%82%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%AE%20%E1%84%8B%E1%85%B5%E1%86%BB%E1%84%8B%E1%85%B3%E1%86%B7%201aacb30913fc80b3832bc4d7631e8def/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-03-02_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11.43.44.png)
-    
-    # 또 맥이야?
-    
-    ```python
-    echo .DS_Store >> .gitignore
-    git add .gitignore
-    git commit -m 'Add .gitignore'
-    ```
-    
-    <aside>
-    <img src="https://www.notion.so/icons/command-line_pink.svg" alt="https://www.notion.so/icons/command-line_pink.svg" width="40px" />
-    
-    `.DS_Store` 파일은 macOS 시스템에서 사용되는 파일로, "Desktop Services Store"의 약자입니다. 이 파일은 폴더의 뷰 옵션, 아이콘 위치, 배경색 등의 사용자 지정 설정을 저장하는 데 사용됩니다. macOS에서 Finder를 사용하여 폴더를 열 때마다 해당 폴더에 대한 이러한 설정들을 저장하고 관리하기 위해 `.DS_Store` 파일이 생성됩니다.
-    
-    `.DS_Store` 파일은 주로 사용자의 환경 설정을 유지하는 데 도움을 주지만, 버전 관리 시스템에서는 필요하지 않은 파일이기 때문에 보통 `.gitignore` 파일에 포함시켜 Git 추적에서 제외시킵니다. 이렇게 하면 다른 시스템에서 코드를 공유할 때 불필요한 설정 파일이 포함되지 않아 깔끔하게 코드만 관리할 수 있습니다.
-    
-    </aside>
-    
-    # 문제 해결 완료
-    
 
 차례로 터미널에 입력하면 됩니다.
 
