@@ -223,3 +223,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+
+# 로고 설정 추가
+logo: /assets/images/logo/logo.svg
